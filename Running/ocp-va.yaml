@@ -1,0 +1,8 @@
+---
+apiVersion: hive.openshift.io/v1
+kind: ClusterDeployment
+metadata:
+  name: ocp-va
+  namespace: ocp-va
+spec:
+  powerState: Running
