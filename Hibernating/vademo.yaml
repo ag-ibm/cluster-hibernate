@@ -2,7 +2,7 @@
 apiVersion: hive.openshift.io/v1
 kind: ClusterDeployment
 metadata:
-  name: ocp-va
-  namespace: ocp-va
+  name: vademo
+  namespace: vademo
 spec:
-  powerState: Running
+  powerState: Hibernating
