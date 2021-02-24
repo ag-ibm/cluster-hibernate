@@ -1,8 +1,0 @@
----
-apiVersion: hive.openshift.io/v1
-kind: ClusterDeployment
-metadata:
-  name: vademo
-  namespace: vademo
-spec:
-  powerState: Hibernating
